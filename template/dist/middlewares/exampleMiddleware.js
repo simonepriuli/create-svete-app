@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.exampleMiddleware = void 0;
 function exampleMiddleware(req, res, next) {
     const authHeader = req.headers["auth"];
-    if (authHeader === "anna") {
+    if (authHeader === "joe") {
         next();
     }
     else {
