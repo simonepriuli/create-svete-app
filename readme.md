@@ -13,7 +13,7 @@
 
 To scaffold an app using create-svete-app, run the following command.
 ```bash
-  npm create-svete-app my-project
+  npx create-svete-app my-project
   cd my-project
 ```
     

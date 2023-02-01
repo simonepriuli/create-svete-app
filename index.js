@@ -4,8 +4,13 @@ const spawn = require("cross-spawn");
 const fs = require("fs");
 const path = require("path");
 
+let projectName;
 // The first argument will be the project name.
-const projectName = process.argv[2];
+if (process.argv[2] != undefined) {
+  projectName = process.argv[2];
+} else {
+  projectName = "my-svete-app"
+}
 
 // Create a project directory with the project name.
 const currentDir = process.cwd();
