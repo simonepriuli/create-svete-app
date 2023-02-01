@@ -6,7 +6,7 @@ export function exampleMiddleware(
   next: NextFunction
 ) {
   const authHeader = req.headers["auth"];
-  if (authHeader === "anna") {
+  if (authHeader === "joe") {
     next();
   } else {
     res.status(400).send("Forbidden");
