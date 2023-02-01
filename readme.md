@@ -16,4 +16,8 @@ To scaffold an app using create-svete-app, run the following command.
   npx create-svete-app my-project
   cd my-project
 ```
-    
+
+## Deploy on Vercel
+
+The easiest way to deploy your SVETE app is to use the [Vercel Platform](https://vercel.com/) wich this starter is designed to work with.
+
