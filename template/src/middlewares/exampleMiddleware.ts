@@ -5,7 +5,7 @@ export function exampleMiddleware(
   res: Response,
   next: NextFunction
 ) {
-  const authHeader = req.headers["auth"];
+  const authHeader = req.headers["joe"];
   if (authHeader === "john") {
     next();
   } else {
