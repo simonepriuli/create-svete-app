@@ -4,7 +4,7 @@
   <p align="center">
      <a href="https://imongo.priuli.co/">SVETE docs</a> 
     <br/>
-    Create SVETE app is the best way to develop and deploy a TypeScript and Express standalone backend using Vercel platform and Edge Config (optional).
+    Create SVETE app is the best way to develop and deploy a serverless TypeScript and Express standalone backend using Vercel platform and Edge Config (optional).
   </p>
 </p>
 
