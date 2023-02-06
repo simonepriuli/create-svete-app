@@ -1,7 +1,7 @@
 {
     "name": "create-svete-app",
     "version": "1.0.3",
-    "description": "Example starter template tool",
+    "description": "SVETE is a serverless backend starter for Express and Vercel.",
     "bin": {
       "create-svete-app": "./index.js"
     },
