@@ -14,7 +14,16 @@
 To scaffold an app using create-svete-app, run the following command.
 ```bash
   npx create-svete-app my-project
+```
+
+Enter the directory
+```bash
   cd my-project
+```
+
+Run npm i to install all the dependencies
+```bash
+  npm i
 ```
 
 ## Deploy on Vercel
